@@ -81,6 +81,10 @@ input[type=button], input[type=submit], input[type=reset] {
   cursor: pointer;
 }
 
+.w3-top{
+z-index: 2;
+}
+
 </style>
 <body>
 
@@ -88,30 +92,46 @@ input[type=button], input[type=submit], input[type=reset] {
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Size,Variables & Methods</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inheritance</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Coupling</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Control Structures</a>
+    <a href="Index.jsp" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="size.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Size</a>
+    <a href="variables.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Variables</a>
+    <a href="methods.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Methods</a>
+    <a href="inheritance.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inheritance</a>
+    <a href="coupling.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Coupling</a>
+    <a href="controlStructures.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Control Structures</a>
     
   </div>
 </div>
 
 
 
-<div style="width: 30%; height:100%;" class="split left">
+
+<div style="width: 25%; height:100%;" class="split left">
   <div class="centered">
-    
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>     
     <h2>Select File</h2>
     <form>
-		<label for="fname">File Path</label>
-		<input type="text" id="fpath" name="fpath">
+		<label for="fname">Enter Java Class Name</label>
+		<input type="text" id="f_id" name="file_name">
+		<label for="fselect">Select File</label>
 	</form>
-	<input type="button" value="Execute">
+	<form>	
+		<input type="file" id="fpath" name="fpath">
+		<input href="inheritance.jsp" type="button" value="Upload">
+	</form>
+	<a href= "#"><input type="button" value="Execute"></a>
   </div>
 </div>
 
-<div style="width: 70%; height:100%;"  class="split right">
+<div style="width: 75%; height:100%;"  class="split right">
 
 
   <div class="container">

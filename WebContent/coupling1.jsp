@@ -81,6 +81,10 @@ input[type=button], input[type=submit], input[type=reset] {
   cursor: pointer;
 }
 
+.w3-top{
+z-index: 2;
+}
+
 </style>
 <body>
 
@@ -88,41 +92,46 @@ input[type=button], input[type=submit], input[type=reset] {
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Size,Variables & Methods</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inheritance</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Coupling</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Control Structures</a>
+    <a href="Index.jsp" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="size.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Size</a>
+    <a href="variables.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Variables</a>
+    <a href="methods.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Methods</a>
+    <a href="inheritance.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inheritance</a>
+    <a href="coupling.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Coupling</a>
+    <a href="controlStructures.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Control Structures</a>
     
   </div>
 </div>
 
 
 
-<div style="width: 20%; height:100%;" class="split left">
+
+<div style="width: 25%; height:100%;" class="split left">
   <div class="centered">
-    
-  <!-- Upload File Form -->    
-	
-		<form action="FileUploadHandler" enctype="multipart/form-data" method="post">
-		       
-              Enter Java Class Name	<input type="text" name="file_name"><br>
-				 Select<input type="file" id="fpath" name="fpath"  /><br> 
-               <input type="submit" value="upload" />
-        </form>  
-           
-           
-           <%
-           String file_name=(String)request.getParameter("filename");
-           if(file_name!=null){
-        	   out.println(file_name+" File uploaded successfuly");
-           }
-           %>
-	<input type="button" value="Execute">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>     
+    <h2>Select File</h2>
+    <form>
+		<label for="fname">Enter Java Class Name</label>
+		<input type="text" id="f_id" name="file_name">
+		<label for="fselect">Select File</label>
+	</form>
+	<form>	
+		<input type="file" id="fpath" name="fpath">
+		<input href="inheritance.jsp" type="button" value="Upload">
+	</form>
+	<input href="inheritance.jsp" type="button" value="Execute">
   </div>
 </div>
 
-<div style="width: 80%; height:100%;"  class="split right">
+<div style="width: 75%; height:100%;"  class="split right">
 
 
   <div class="container">
@@ -185,7 +194,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>2</td>
-    <td> class Years{</td>
+    <td>&nbsp class Years{</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -203,7 +212,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>3</td>
-    <td>   public int getYear(){</td>
+    <td>&nbsp &nbsp &nbsp public int getYear(){</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -221,7 +230,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>4 </td>
-    <td>	int year;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp int year;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -239,7 +248,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>5</td>
-    <td>	String enteredYear;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp String enteredYear;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -257,7 +266,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>6</td>
-    <td>	Scanner sc = new Scanner(System.in);</td>
+    <td>&nbsp &nbsp &nbsp &nbsp Scanner sc = new Scanner(System.in);</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -275,7 +284,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>7</td>
-    <td>	System.out.println("Enter the year as a number :");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp System.out.println("Enter the year as a number :");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -293,7 +302,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>8</td>
-    <td>	enteredYear = sc.next();</td>
+    <td>&nbsp &nbsp &nbsp &nbsp enteredYear = sc.next();</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -311,7 +320,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>9</td>
-    <td>	year = Integer.parseInt(enteredYear);</td>
+    <td>&nbsp &nbsp &nbsp &nbsp year = Integer.parseInt(enteredYear);</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -329,7 +338,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>10</td>
-    <td>	return year;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp return year;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -347,7 +356,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>11</td>
-    <td>   }</td>
+    <td>&nbsp &nbsp &nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -365,7 +374,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>12</td>
-    <td> }</td>
+    <td>&nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -401,7 +410,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>14</td>
-    <td> class Months extends Years{</td>
+    <td>&nbsp class Months extends Years{</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -419,7 +428,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>15</td>
-    <td>   public int getMonth(){</td>
+    <td>&nbsp &nbsp &nbsp public int getMonth(){</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -437,7 +446,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>16</td>
-    <td>	int month;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp int month;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -455,7 +464,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>17</td>
-    <td>	String enteredMonthNumber;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp String enteredMonthNumber;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -473,7 +482,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>18</td>
-    <td>	Scanner sc = new Scanner(System.in);</td>
+    <td>&nbsp &nbsp &nbsp &nbsp Scanner sc = new Scanner(System.in);</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -491,7 +500,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>19</td>
-    <td>	System.out.println("Enter the month number :");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp System.out.println("Enter the month number :");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -509,7 +518,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>20</td>
-    <td>	enteredMonthNumber = sc.next();</td>
+    <td>&nbsp &nbsp &nbsp &nbsp enteredMonthNumber = sc.next();</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -527,7 +536,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>21</td>
-    <td>	month = Integer.parseInt(enteredMonthNumber);</td>
+    <td>&nbsp &nbsp &nbsp &nbsp month = Integer.parseInt(enteredMonthNumber);</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -545,7 +554,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>22</td>
-    <td>	return month;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp return month;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -563,7 +572,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>23</td>
-    <td>   }</td>
+    <td>&nbsp &nbsp &nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -581,7 +590,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>24</td>
-    <td> }</td>
+    <td>&nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -635,7 +644,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>27</td>
-    <td> static int numDays = 0;</td>
+    <td>&nbsp static int numDays = 0;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -653,7 +662,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>28</td>
-    <td> public static void main(String[] args) {</td>
+    <td>&nbsp public static void main(String[] args) {</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -671,7 +680,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>29</td>
-    <td>   int year;</td>
+    <td>&nbsp &nbsp &nbsp int year;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -689,7 +698,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>30</td>
-    <td>   Months m = new Months();</td>
+    <td>&nbsp &nbsp &nbsp Months m = new Months();</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -707,7 +716,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>31</td>
-    <td>   int month = m.getMonth();</td>
+    <td>&nbsp &nbsp &nbsp int month = m.getMonth();</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -743,7 +752,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>33</td>
-    <td>   if((month < 1) || (month > 12)){</td>
+    <td>&nbsp &nbsp &nbsp if((month < 1) || (month > 12)){</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -761,7 +770,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>34</td>
-    <td>     System.out.println("Kindly enter a number between 0 to 13.");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp System.out.println("Kindly enter a number between 0 to 13.");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -779,7 +788,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>35</td>
-    <td>   }</td>
+    <td>&nbsp &nbsp &nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -797,7 +806,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>36</td>
-    <td>   else {</td>
+    <td>&nbsp &nbsp &nbsp else {</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -815,7 +824,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>37</td>
-    <td>    switch (month) {</td>
+    <td>&nbsp &nbsp &nbsp &nbsp switch (month) {</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -833,7 +842,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>38</td>
-    <td>      case 1:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 1:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -851,7 +860,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>39</td>
-    <td>      case 3:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 3:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -869,7 +878,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>40</td>
-    <td>      case 5:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 5:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -887,7 +896,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>41</td>
-    <td>      case 7:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 7:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -905,7 +914,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>42</td>
-    <td>      case 8:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 8:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -923,7 +932,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>43</td>
-    <td>      case 10:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 10:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -941,7 +950,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>44</td>
-    <td>      case 12:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 12:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -959,7 +968,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>45</td>
-    <td>        numDays = 31;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp numDays = 31;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -977,7 +986,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>46</td>
-    <td>        System.out.println("Month " + month + " consists of " + numDays + " days.");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp System.out.println("Month " + month + " consists of " + numDays + " days.");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -995,7 +1004,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>47</td>
-    <td>        break;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp break;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1013,7 +1022,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>48</td>
-    <td>      case 4:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 4:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1031,7 +1040,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>49</td>
-    <td>      case 6:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 6:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1049,7 +1058,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>50</td>
-    <td>      case 9:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 9:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1067,7 +1076,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>51</td>
-    <td>      case 11:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 11:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1085,7 +1094,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>52</td>
-    <td>       numDays = 30;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp numDays = 30;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1103,7 +1112,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>53</td>
-    <td>       System.out.println("Month " + month + " consists of " + numDays + " days.");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp System.out.println("Month " + month + " consists of " + numDays + " days.");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1121,7 +1130,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>54</td>
-    <td>       break;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp break;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1139,7 +1148,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>55</td>
-    <td>      case 2:</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 2:</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1157,7 +1166,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>56</td>
-    <td>       year = m.getYear();</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp year = m.getYear();</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1175,7 +1184,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>57</td>
-    <td>       if(year < 1) {</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp if(year < 1) {</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1193,7 +1202,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>58</td>
-    <td>        System.out.println("Kindly enter a valid year.");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp System.out.println("Kindly enter a valid year.");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1211,7 +1220,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>59</td>
-    <td>       }</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1229,7 +1238,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>60</td>
-    <td>       else{</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp else{</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1247,7 +1256,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>61</td>
-    <td>        if(((year % 4 == 0) &&  !(year % 100 == 0)) || (year % 400 == 0)){</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp if(((year % 4 == 0) &&  !(year % 100 == 0)) || (year % 400 == 0)){</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1265,7 +1274,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>62</td>
-    <td>         numDays = 29;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp numDays = 29;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1283,7 +1292,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>63</td>
-    <td>		 if(year > 2020){</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp if(year > 2020){</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1301,7 +1310,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>64</td>
-    <td>		  System.out.println("In year " + year + " month " + month + " will consist of " + numDays + " days.");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp System.out.println("In year " + year + " month " + month + " will consist of " + numDays + " days.");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1319,7 +1328,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>65</td>
-    <td>         }</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1337,7 +1346,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>66</td>
-    <td>         else{</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp else{</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1355,7 +1364,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>67</td>
-    <td>          System.out.println("In year " + year + " month " + month + " has consisted of " + numDays + " days.");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp System.out.println("In year " + year + " month " + month + " has consisted of " + numDays + " days.");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1373,7 +1382,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>68</td>
-    <td>         }</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1391,7 +1400,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>69</td>
-    <td>        }//if at line 61</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }//if at line 61</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1409,7 +1418,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>70</td>
-    <td>        else{</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp else{</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1427,7 +1436,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>71</td>
-    <td>         numDays = 28;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp numDays = 28;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1445,7 +1454,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>72</td>
-    <td>         if (year > 2020){</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp if (year > 2020){</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1463,7 +1472,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>73</td>
-    <td>          System.out.println("In year " + year + " month " + month + " will consist of " + numDays + " days.");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp System.out.println("In year " + year + " month " + month + " will consist of " + numDays + " days.");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1481,7 +1490,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>74</td>
-    <td>         }</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1499,7 +1508,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>75</td>
-    <td>         else{</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp else{</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1517,7 +1526,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>76</td>
-    <td>          System.out.println("In year " + year + " month " + month + " has consisted of " + numDays + " days.");</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp System.out.println("In year " + year + " month " + month + " has consisted of " + numDays + " days.");</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1535,7 +1544,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>77</td>
-    <td>         }</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1553,7 +1562,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>78</td>
-    <td>         break;</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp break;</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1571,7 +1580,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>79</td>
-    <td>        }//else at line 70</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }//else at line 70</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1589,7 +1598,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
   <tr>
     <td>80</td>
-    <td>       }//else at line 60</td>
+    <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }//else at line 60</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1607,7 +1616,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>81</td>
-    <td>    }//switch at line 37</td>
+    <td>&nbsp &nbsp &nbsp &nbsp }//switch at line 37</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1625,7 +1634,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>82</td>
-    <td>   }//else at line 36</td>
+    <td>&nbsp &nbsp &nbsp }//else at line 36</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1643,7 +1652,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>83</td>
-    <td>  }//method</td>
+    <td>&nbsp &nbsp }//method</td>
     <td></td>
 	<td></td>
 	<td></td>
@@ -1661,7 +1670,7 @@ input[type=button], input[type=submit], input[type=reset] {
   </tr>
     <tr>
     <td>84</td>
-    <td> }//class</td>
+    <td>&nbsp }//class</td>
     <td></td>
 	<td></td>
 	<td></td>
