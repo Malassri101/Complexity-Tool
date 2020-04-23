@@ -117,15 +117,20 @@ z-index: 2;
 <br>
 <br>     
     <h2>Select File</h2>
-    <form>
+    <form action="FileUploadHandler" enctype="multipart/form-data" method="post">
 		<label for="fname">Enter Java Class Name</label>
 		<input type="text" id="f_id" name="file_name">
 		<label for="fselect">Select File</label>
-	</form>
-	<form>	
 		<input type="file" id="fpath" name="fpath">
-		<input href="inheritance.jsp" type="button" value="Upload">
+		<input type="submit" value="Upload">
 	</form>
+	           <%
+           String file_name=(String)request.getParameter("filename");
+           if(file_name!=null){
+        	   out.println(file_name+" File uploaded successfuly");
+           }
+           %>
+
 	<a href= "methods1.jsp"><input type="button" value="Execute"></a>
   </div>
 </div>

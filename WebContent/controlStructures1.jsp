@@ -160,7 +160,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>2</td>
@@ -168,7 +168,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>3</td>
@@ -176,7 +176,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>4 </td>
@@ -184,7 +184,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>5</td>
@@ -192,7 +192,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>6</td>
@@ -200,7 +200,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>7</td>
@@ -208,7 +208,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>8</td>
@@ -216,7 +216,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>9</td>
@@ -224,7 +224,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>10</td>
@@ -232,7 +232,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>11</td>
@@ -240,7 +240,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>12</td>
@@ -248,7 +248,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>13</td>
@@ -256,7 +256,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>14</td>
@@ -264,7 +264,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>15</td>
@@ -272,7 +272,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>16</td>
@@ -280,7 +280,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>17</td>
@@ -288,7 +288,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>18</td>
@@ -296,7 +296,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>19</td>
@@ -304,7 +304,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>20</td>
@@ -312,7 +312,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>21</td>
@@ -320,7 +320,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>22</td>
@@ -328,7 +328,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>23</td>
@@ -336,7 +336,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>24</td>
@@ -344,7 +344,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>25</td>
@@ -352,7 +352,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>26</td>
@@ -360,7 +360,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>27</td>
@@ -368,7 +368,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>28</td>
@@ -376,7 +376,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>29</td>
@@ -384,7 +384,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>30</td>
@@ -392,7 +392,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>31</td>
@@ -400,7 +400,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>32</td>
@@ -408,15 +408,15 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>33</td>
     <td>&nbsp &nbsp &nbsp if((month < 1) || (month > 12)){</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>0</td>
+	<td>2</td>
   </tr>
   <tr>
     <td>34</td>
@@ -424,7 +424,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>35</td>
@@ -432,7 +432,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>36</td>
@@ -440,71 +440,71 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>37</td>
     <td>&nbsp &nbsp &nbsp &nbsp switch (month) {</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>0</td>
+	<td>2</td>
   </tr>
   <tr>
     <td>38</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 1:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>39</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 3:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>40</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 5:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
     <tr>
     <td>41</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 7:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>42</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 8:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>43</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 10:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>44</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 12:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>45</td>
@@ -512,7 +512,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>46</td>
@@ -520,7 +520,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>47</td>
@@ -528,39 +528,39 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>48</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 4:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>49</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 6:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>50</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 9:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
     <tr>
     <td>51</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 11:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>52</td>
@@ -568,7 +568,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>53</td>
@@ -576,7 +576,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>54</td>
@@ -584,15 +584,15 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>55</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp case 2:</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
   </tr>
   <tr>
     <td>56</td>
@@ -600,15 +600,15 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>57</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp if(year < 1) {</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>5</td>
   </tr>
   <tr>
     <td>58</td>
@@ -616,7 +616,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>59</td>
@@ -624,7 +624,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>60</td>
@@ -632,15 +632,15 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>61</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp if(((year % 4 == 0) &&  !(year % 100 == 0)) || (year % 400 == 0)){</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>2</td>
+	<td>3</td>
+	<td>7</td>
   </tr>
   <tr>
     <td>62</td>
@@ -648,15 +648,15 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>63</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp if(year > 2020){</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>7</td>
+	<td>9</td>
   </tr>
   <tr>
     <td>64</td>
@@ -664,7 +664,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>65</td>
@@ -672,7 +672,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>66</td>
@@ -680,7 +680,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>67</td>
@@ -688,7 +688,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>68</td>
@@ -696,7 +696,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>69</td>
@@ -704,7 +704,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>70</td>
@@ -712,7 +712,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>71</td>
@@ -720,15 +720,15 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>72</td>
     <td>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp if (year > 2020){</td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>5</td>
   </tr>
   <tr>
     <td>73</td>
@@ -736,7 +736,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>74</td>
@@ -744,7 +744,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>75</td>
@@ -752,7 +752,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>76</td>
@@ -760,7 +760,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>77</td>
@@ -768,7 +768,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>78</td>
@@ -776,7 +776,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>79</td>
@@ -784,7 +784,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
   <tr>
     <td>80</td>
@@ -792,7 +792,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>81</td>
@@ -800,7 +800,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>82</td>
@@ -808,7 +808,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>83</td>
@@ -816,7 +816,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
     <tr>
     <td>84</td>
@@ -824,7 +824,7 @@ z-index: 2;
     <td></td>
 	<td></td>
 	<td></td>
-	<td></td>
+	<td>0</td>
   </tr>
 </table>
   </div>
