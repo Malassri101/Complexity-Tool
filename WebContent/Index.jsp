@@ -107,14 +107,17 @@ input[type=button], input[type=submit], input[type=reset] {
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Size,Variables & Methods</a>
-    <a href= "inheritance.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inheritance</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Coupling</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Control Structures</a>
+    <a href="Index.jsp" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="size.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Size</a>
+    <a href="variables.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Variables</a>
+    <a href="methods.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Methods</a>
+    <a href="inheritance.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Inheritance</a>
+    <a href="coupling.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Coupling</a>
+    <a href="controlStructures.jsp" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Control Structures</a>
     
   </div>
 </div>
+
 <br/>
 <br/>
 <br/>
