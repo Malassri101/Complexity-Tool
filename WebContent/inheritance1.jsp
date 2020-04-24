@@ -156,83 +156,27 @@ z-index: 2;
   </tr>
   <tr>
     <td>1</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>Years</td>
+    <td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
   </tr>
   <tr>
     <td>2</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>Months</td>
+    <td>1</td>
+	<td>0</td>
+	<td>1</td>
+	<td>1</td>
   </tr>
   <tr>
     <td>3</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td></td>
-    <td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+    <td>DaysPerMonth</td>
+    <td>1</td>
+	<td>1</td>
+	<td>2</td>
+	<td>2</td>
   </tr>
 </table>
   </div>
