@@ -125,7 +125,7 @@ z-index: 2;
 	</form>
 	<form>	
 		<input type="file" id="fpath" name="fpath">
-		<input href="inheritance.jsp" type="button" value="Upload">
+		
 	</form>
 	<a href= "#"><input type="button" value="Execute"></a>
   </div>

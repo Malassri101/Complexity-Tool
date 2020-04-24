@@ -123,7 +123,7 @@ z-index: 2;
 		<input type="text" id="f_id" name="file_name">
 		<label for="fselect">Select File</label>
 		<input type="file" id="fpath" name="fpath">
-		<input type="submit" value="Upload">
+		
 	</form>
 	           <%
            String file_name=(String)request.getParameter("filename");
